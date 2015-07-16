@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta-charset="UTF-8">
-    <title>drunk Budda</title>
-    <link src="stylesheets/style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Drunk Buddha</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"/>
   </head>
   <body>
     <h1>How can Budda help you?</h1>
-
-    <script src="src/drunkBudda.js" type="text/javascript"></script>
+    <h3>Tell Buddha in a single word, what is:</h3>
+    <table>
+      <tr>
+        <td class="rtAlign">Your Problem:</td>
+        <td><input type="text" id="fName"></td>
+      </tr>
+      <tr>
+        <td class="rtAlign">Ideal Outcome:</td>
+        <td><input type="text" id="mName"></td>
+      </tr>
+      <tr>
+        <td class="rtAlign">Favourite Element:</td>
+        <td><input type="text" id="lName"></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" value="Submit" id="buddhaSubmit">
+      </tr>
+    </table>
+    <script src="src/drunkBuddha.js" type="text/javascript"></script>
   </body>
 </html>
